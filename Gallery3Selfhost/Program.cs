@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.SelfHost;
 
-namespace Gallery3Selfhost
+namespace Gallery3WinForm
 {
     class Program
     {

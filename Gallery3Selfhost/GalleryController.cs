@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 
-namespace Gallery3Selfhost
+namespace Gallery3WinForm
 {
     public class GalleryController : System.Web.Http.ApiController
     {
