@@ -42,14 +42,14 @@ namespace Gallery3WinForm
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    frmArtist.Run(new clsArtist(_ArtistList));
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show(ex.Message, "Error adding new artist");
-            //}
+            try
+            {
+                frmArtist.Run(null);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error adding new artist");
+            }
         }
 
         private void lstArtists_DoubleClick(object sender, EventArgs e)
