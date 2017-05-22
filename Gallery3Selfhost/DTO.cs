@@ -9,7 +9,7 @@ namespace Gallery3Selfhost
     public class clsArtist
     {
         public string Name { get; set; }
-        public string Specialtiy { get; set; }
+        public string Speciality { get; set; }
         public string Phone { get; set; }
 
         //public List<<clsAllwork> WorksList { get; set; }
