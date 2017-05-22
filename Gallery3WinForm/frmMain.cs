@@ -111,7 +111,7 @@ namespace Gallery3WinForm
             //{
             //    MessageBox.Show(ex.Message, "File retrieve error");
             //}
-            //UpdateDisplay();
+            UpdateDisplay();
             //GalleryNameChanged += new Notify(updateTitle);
             //GalleryNameChanged(_ArtistList.GalleryName);
             ////updateTitle(_ArtistList.GalleryName);
